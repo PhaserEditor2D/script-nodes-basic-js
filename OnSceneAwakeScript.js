@@ -1,7 +1,5 @@
 // You can write more code here
 /* START OF COMPILED CODE */
-/* START-USER-IMPORTS */
-/* END-USER-IMPORTS */
 class OnSceneAwakeScript extends ScriptNode {
     constructor(parent) {
         super(parent);
@@ -13,6 +11,7 @@ class OnSceneAwakeScript extends ScriptNode {
     awake() {
         this.executeChildren();
     }
+	/* END-USER-CODE */
 }
 /* END OF COMPILED CODE */
 // You can write more code here

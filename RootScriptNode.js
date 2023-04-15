@@ -1,7 +1,5 @@
 // You can write more code here
 /* START OF COMPILED CODE */
-/* START-USER-IMPORTS */
-/* END-USER-IMPORTS */
 class RootScriptNode extends ScriptNode {
     constructor(parent) {
         super(parent);
@@ -50,6 +48,7 @@ class RootScriptNode extends ScriptNode {
     awake() {
         this.gameObject[`RootScript__${this.key}`] = this;
     }
+	/* END-USER-CODE */
 }
 /* END OF COMPILED CODE */
 // You can write more code here

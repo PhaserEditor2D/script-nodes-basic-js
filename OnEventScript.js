@@ -1,7 +1,5 @@
 // You can write more code here
 /* START OF COMPILED CODE */
-/* START-USER-IMPORTS */
-/* END-USER-IMPORTS */
 class OnEventScript extends ScriptNode {
     constructor(parent) {
         super(parent);
@@ -13,6 +11,7 @@ class OnEventScript extends ScriptNode {
     awake() {
         this.gameObject?.on(this.eventName, this.executeChildren, this);
     }
+	/* END-USER-CODE */
 }
 /* END OF COMPILED CODE */
 // You can write more code here

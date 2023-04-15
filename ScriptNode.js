@@ -86,5 +86,6 @@ class ScriptNode {
     destroy() {
         // override this
     }
+	/* END-USER-CODE */
 }
 

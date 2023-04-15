@@ -1,7 +1,5 @@
 // You can write more code here
 /* START OF COMPILED CODE */
-/* START-USER-IMPORTS */
-/* END-USER-IMPORTS */
 class StartSceneActionScript extends ScriptNode {
     constructor(parent) {
         super(parent);
@@ -14,6 +12,7 @@ class StartSceneActionScript extends ScriptNode {
     execute() {
         this.scene.scene.start(this.sceneKey);
     }
+	/* END-USER-CODE */
 }
 /* END OF COMPILED CODE */
 // You can write more code here

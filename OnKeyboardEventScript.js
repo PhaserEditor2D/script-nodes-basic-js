@@ -1,7 +1,5 @@
 // You can write more code here
 /* START OF COMPILED CODE */
-/* START-USER-IMPORTS */
-/* END-USER-IMPORTS */
 class OnKeyboardEventScript extends ScriptNode {
     constructor(parent) {
         super(parent);
@@ -19,6 +17,7 @@ class OnKeyboardEventScript extends ScriptNode {
             this.executeChildren();
         });
     }
+	/* END-USER-CODE */
 }
 /* END OF COMPILED CODE */
 // You can write more code here

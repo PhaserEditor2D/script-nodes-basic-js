@@ -1,7 +1,5 @@
 // You can write more code here
 /* START OF COMPILED CODE */
-/* START-USER-IMPORTS */
-/* END-USER-IMPORTS */
 class OnPointerDownScript extends OnEventScript {
     constructor(parent) {
         super(parent);
@@ -21,6 +19,7 @@ class OnPointerDownScript extends OnEventScript {
         }
         super.awake();
     }
+	/* END-USER-CODE */
 }
 /* END OF COMPILED CODE */
 // You can write more code here
